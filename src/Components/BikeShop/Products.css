@@ -1,8 +1,8 @@
 .for-bike{
     /* background-color: antiquewhite; */
     border: 5px solid lightblue;
-    
     border-radius: 10px;
+    position: relative;
 }
 
 .bike-button button{
@@ -19,6 +19,7 @@
 
 .bike-info{
     padding: 10px;
+    margin-bottom: 40px;
 }
 
 .bike-info img{
@@ -33,4 +34,11 @@
 
 .button-addToCart{
     margin-right: 10px;
+}
+
+.bike-button{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }

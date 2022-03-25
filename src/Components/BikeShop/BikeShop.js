@@ -28,7 +28,7 @@ const BikeShop = () => {
         } 
 
         const checkId = ()=>{
-            const randomNumber = Math.round(Math.random() * 10); 
+            const randomNumber = Math.floor(Math.random() * 13); 
             const id = getOnlyId.find(id => id === randomNumber)
             if(id === randomNumber){
                 return id; 
@@ -48,7 +48,6 @@ const BikeShop = () => {
     // Choose again button. 
 
     const chooseAgainButton = () =>{
-        console.log('button is clicked'); 
         setMycart([]); 
     }
 

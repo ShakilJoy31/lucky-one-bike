@@ -1,75 +1,75 @@
 [
     {
       "id": "1",
-      "name": "bike 1",
-      "price": 420,
+      "name": "Going Retro",
+      "price": 12000,
       "img": "https://5.imimg.com/data5/QQ/JC/FY/SELLER-45461290/yamaha-yzf-r15-v-3-0-bike-500x500.jpg"
     }, 
     {
       "id": "2",
-      "name": "bike 2",
-      "price": 420,
-      "img": "https://5.imimg.com/data5/QQ/JC/FY/SELLER-45461290/yamaha-yzf-r15-v-3-0-bike-500x500.jpg"
+      "name": "Diavel CARBON",
+      "price": 4200,
+      "img": "https://cdn.visordown.com/field/image/84259.jpg"
     }, 
     {
       "id": "3",
-      "name": "bike 3",
-      "price": 420,
-      "img": "https://5.imimg.com/data5/QQ/JC/FY/SELLER-45461290/yamaha-yzf-r15-v-3-0-bike-500x500.jpg"
+      "name": "Davil DIESEL",
+      "price": 1504,
+      "img": "https://pm1.narvii.com/6445/96388ee8a3d607924da3df08662ee939262da7e0_hq.jpg"
     }, 
     {
       "id": "4",
-      "name": "bike 4",
-      "price": 420,
-      "img": "https://5.imimg.com/data5/QQ/JC/FY/SELLER-45461290/yamaha-yzf-r15-v-3-0-bike-500x500.jpg"
+      "name": "Xdiavel",
+      "price": 6467,
+      "img": "https://i.ytimg.com/vi/IqU4XjL2K2o/hqdefault.jpg"
     }, 
     {
       "id": "5",
-      "name": "bike 5",
-      "price": 420,
-      "img": "https://5.imimg.com/data5/QQ/JC/FY/SELLER-45461290/yamaha-yzf-r15-v-3-0-bike-500x500.jpg"
+      "name": "Hypermotard 99",
+      "price": 4420,
+      "img": "https://blog.droom.in/droomassets/uploads/2015/08/yamaha-R3.-copy.jpg"
     }, 
     {
       "id": "6",
-      "name": "bike 6",
-      "price": 420,
-      "img": "https://5.imimg.com/data5/QQ/JC/FY/SELLER-45461290/yamaha-yzf-r15-v-3-0-bike-500x500.jpg"
+      "name": "MONSTER 797",
+      "price": 2500,
+      "img": "https://m.economictimes.com/thumb/height-450,width-600,imgsize-372705,msid-74299205/husqvarnas-two-motorcycles-swartpilen-250-in-pic-and-vitpilen-250-will-be-based-on-the-same-engine-as-on-the-ktm-duke-250-.jpg"
     }, 
     {
       "id": "7",
-      "name": "bike 7",
-      "price": 420,
-      "img": "https://5.imimg.com/data5/QQ/JC/FY/SELLER-45461290/yamaha-yzf-r15-v-3-0-bike-500x500.jpg"
+      "name": "MULTISTARDA",
+      "price": 5000,
+      "img": "https://eoouae45rgb.exactdn.com/2016/10/ducati-supersport-s-660x550.jpg?strip=all&lossy=1&quality=75&ssl=1"
     }, 
     {
       "id": "8",
-      "name": "bike 8",
-      "price": 420,
-      "img": "https://5.imimg.com/data5/QQ/JC/FY/SELLER-45461290/yamaha-yzf-r15-v-3-0-bike-500x500.jpg"
+      "name": "PANIGALE",
+      "price": 6500,
+      "img": "https://autobizz.in/wp-content/uploads/2022/01/jpg_20220116_140400_0000-1.jpg"
     }, 
     {
       "id": "9",
-      "name": "bike 9",
-      "price": 420,
-      "img": "https://5.imimg.com/data5/QQ/JC/FY/SELLER-45461290/yamaha-yzf-r15-v-3-0-bike-500x500.jpg"
+      "name": "Super Sports",
+      "price": 4420,
+      "img": "https://cdn.luxuo.com/2016/10/audace_34dx.7f592105958.h0-1024x812.jpg"
     }, 
     {
       "id": "10",
-      "name": "bike 10",
-      "price": 420,
-      "img": "https://5.imimg.com/data5/QQ/JC/FY/SELLER-45461290/yamaha-yzf-r15-v-3-0-bike-500x500.jpg"
+      "name": "BMW",
+      "price": 10000,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0l0wCmsaayvAY-fLNmcsdqH32_AN7wqnFqg&usqp=CAU"
     }, 
     {
       "id": "11",
-      "name": "bike 11",
-      "price": 420,
-      "img": "https://5.imimg.com/data5/QQ/JC/FY/SELLER-45461290/yamaha-yzf-r15-v-3-0-bike-500x500.jpg"
+      "name": "R15",
+      "price": 7564,
+      "img": "https://cdn.luxuo.com/2016/10/audace_34dx.7f592105958.h0-1024x812.jpg"
     }, 
     {
       "id": "12",
-      "name": "bike 12",
-      "price": 420,
-      "img": "https://5.imimg.com/data5/QQ/JC/FY/SELLER-45461290/yamaha-yzf-r15-v-3-0-bike-500x500.jpg"
+      "name": "Yamaha V3",
+      "price": 9000,
+      "img": "https://s1.cdn.autoevolution.com/images/news/motorcycle-name-abbreviations-explained-81377_7.jpg"
     } 
     
 ]
