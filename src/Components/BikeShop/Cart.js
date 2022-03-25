@@ -4,7 +4,6 @@ import './Cart.css';
 import ShowBikeInfo from './ShowBikeInfo';
 
 const Cart = (props) => {
-    console.log(props.cart); 
     const {name, price} = props.cart; 
     return (
         <div>
