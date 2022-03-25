@@ -27,7 +27,7 @@ const BikeShop = () => {
            <div className='cart-bike'>
                <h1>Bike, You Selected: </h1>
                {
-                   <Cart cart={myCart}></Cart>
+                   myCart.map(product => <Cart cart={product} key={product.id}></Cart>)
                }
                <CartButton></CartButton>
            </div>

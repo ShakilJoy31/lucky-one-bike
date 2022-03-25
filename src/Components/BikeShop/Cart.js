@@ -1,24 +1,16 @@
 import React from 'react';
 import { useState } from 'react';
 import './Cart.css'; 
+import ShowBikeInfo from './ShowBikeInfo';
 
 const Cart = (props) => {
-    let name = ''; 
-    let price = ''; 
-    for(const information of props.cart){
-        name = information.name; 
-        price = information
-        .price; 
-    }
-    
+    console.log(props.cart); 
+    const {name, price} = props.cart; 
     return (
-        <div className='clicked-bike'>
-            <div className='cart-info'>
-            <h3>Name: {name}</h3>
-            <p>Price: {price}</p>
-            </div>
-            
+        <div>
+            <ShowBikeInfo name={name} price={price}></ShowBikeInfo>     
         </div>
+        
     );
 };
 
