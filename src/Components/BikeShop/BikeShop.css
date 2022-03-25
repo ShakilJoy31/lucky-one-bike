@@ -1,0 +1,18 @@
+.container-bike{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 20px;
+}
+
+.show-bike{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+}
+
+.cart-bike{
+    background-color: lightskyblue;
+    margin-left: 10px;
+    height: 500px;
+    border-radius: 13px;
+}

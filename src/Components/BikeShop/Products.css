@@ -1,0 +1,26 @@
+.for-bike{
+    /* background-color: antiquewhite; */
+    border: 5px solid lightblue;
+    
+    border-radius: 10px;
+}
+
+.bike-button button{
+    width: 100%;
+    border-radius: 0px 0px 6px 6px;
+    color: white;
+    background-color: black;
+}
+
+.bike-button button:hover{
+    color: black;
+    background-color: white;
+}
+
+.bike-info{
+    padding: 10px;
+}
+
+.bike-info img{
+    width: 100%;
+}

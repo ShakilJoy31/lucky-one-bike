@@ -1,0 +1,35 @@
+.clicked-bike{
+    
+}
+
+.cart-info{
+    display: grid;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.button-in-cart button{
+    width: 75%;
+    height: 30px;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+.choose-button:hover{
+    background-color: aliceblue;
+    color: crimson;
+}
+
+.choose-button{
+    background-color: lightcoral;
+}
+
+.again-button:hover{
+    background-color: hotpink;
+    color: black;
+    
+}
+.again-button{
+    background-color: aquamarine;
+}
