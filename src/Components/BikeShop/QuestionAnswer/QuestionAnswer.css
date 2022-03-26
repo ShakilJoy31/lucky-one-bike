@@ -1,0 +1,31 @@
+.total-answer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.state-props{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.props{
+    border: 2px solid darkmagenta;
+    padding: 10px;
+    border-radius: 10px;
+}
+.state{
+    margin: 15px;
+    border: 2px solid darkmagenta;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.react-work{
+    margin: 15px;
+    border: 2px solid salmon;
+    padding: 10px;
+    border-radius: 10px;
+}
