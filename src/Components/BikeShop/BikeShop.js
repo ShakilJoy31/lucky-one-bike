@@ -3,6 +3,7 @@ import Products from './Products';
 import './BikeShop.css'; 
 import { Cart, CartButton } from './Cart';
 import LuckyBike from './LuckyBike';
+import QuestionAnswer from './QuestionAnswer/QuestionAnswer';
 
 const BikeShop = () => {
     const [bikes, setBike] = useState([]); 
@@ -24,7 +25,6 @@ const BikeShop = () => {
 
     // Choose One Button
     const chooseOneButton = (props) =>{
-        setMycart([]);
         let getOnlyId = [];  
         for(const id of props){
             let getId = parseInt(id.id); 
@@ -33,7 +33,7 @@ const BikeShop = () => {
 
         const checkId = ()=>{
             let randomNumber = getOnlyId[Math.floor(Math.random() * getOnlyId.length)]; 
-            const id = getOnlyId.find(id => id === randomNumber)
+            const id = getOnlyId.find(id => id === randomNumber); 
             if(id === randomNumber){
                 return id; 
             }
@@ -42,13 +42,11 @@ const BikeShop = () => {
             }
         }
         const id = checkId();
-        setRandomNumber(id); 
-        
+        setRandomNumber(id);  
     }
    
     let keepRandomNumber = [randomNumber]; 
     const getRandomNumber = parseInt(randomNumber); 
-    console.log(randomNumber, typeof(getRandomNumber)); 
     // Choose again button. 
 
     const chooseAgainButton = () =>{
@@ -69,12 +67,16 @@ const BikeShop = () => {
                    myCart.map(product => <Cart cart={product} key={product.id}></Cart>)
                }
 
-               {
-                   keepRandomNumber.map(number => <LuckyBike randomNumber={getRandomNumber} key={number} cart={myCart}></LuckyBike>)
-               }
-
                <CartButton product={myCart}  chooseOneButton={chooseOneButton} chooseAgainButton={chooseAgainButton}></CartButton>  
 
+               {
+                   keepRandomNumber.map(number => <LuckyBike random={getRandomNumber} key={number} cart={myCart}></LuckyBike>)
+               }
+
+           </div>
+
+           <div>
+               <QuestionAnswer></QuestionAnswer>
            </div>
         </div>
     );
