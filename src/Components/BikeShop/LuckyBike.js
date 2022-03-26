@@ -1,19 +1,28 @@
 import React from 'react';
+import Products from './Products';
 
 const LuckyBike = (props) => {
-    let getOnlyId = []; 
-    let randomId; 
-    for(const id of props.product){
-        let getId = parseInt(id.id); 
-        getOnlyId = [...getOnlyId, getId]; 
-        randomId = getOnlyId[Math.floor(Math.random())]; 
-    } 
-    console.log(getOnlyId); 
+
+    props.cart.map(Product => {
+        let bikeId = parseInt(Product.id); 
+        let randomNumber = parseInt(props.randomNumber); 
+        console.log(bikeId, randomNumber);
+        console.log(typeof(randomNumber));  
+
+        
+        if(bikeId == props.randomNumber){
+            console.log('inside in the if'); 
+        }
+        // const specificProduct = props.cart.find(selectedProduct => selectedProduct.id === props.randomNumber); 
+        // console.log(specificProduct); 
+    }); 
+
     
-    console.log(randomId%3); 
+
+
     return (
         <div>
-            <h2>This is lucky bike for you.</h2>
+            <h2>Bike id {props.randomNumber}</h2>
         </div>
     );
 };

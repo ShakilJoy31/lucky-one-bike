@@ -6,17 +6,16 @@ import Products from './Products';
 import LuckyBike from './LuckyBike';
 
 const Cart = (props) => {
-    const {name, price} = props.cart; 
+    const {name, price, img} = props.cart; 
     return (
         <div>
-            <ShowBikeInfo name={name} price={price}></ShowBikeInfo>     
+            <ShowBikeInfo name={name} price={price} image={img} randomNumber={props.randomNumber}></ShowBikeInfo>     
         </div>
         
     );
 };
 
 const CartButton = (props) =>{
-    console.log(props.product);
     return(
         <div>
             <div className='button-in-cart'>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Products from './Products';
 import './BikeShop.css'; 
 import { Cart, CartButton } from './Cart';
+import LuckyBike from './LuckyBike';
 
 const BikeShop = () => {
     const [bikes, setBike] = useState([]); 
@@ -20,7 +21,10 @@ const BikeShop = () => {
         setMycart(stored); 
     }
 
+
+    // Choose One Button
     const chooseOneButton = (props) =>{
+        setMycart([]);
         let getOnlyId = [];  
         for(const id of props){
             let getId = parseInt(id.id); 
@@ -28,7 +32,7 @@ const BikeShop = () => {
         } 
 
         const checkId = ()=>{
-            const randomNumber = Math.floor(Math.random() * 13); 
+            let randomNumber = getOnlyId[Math.floor(Math.random() * getOnlyId.length)]; 
             const id = getOnlyId.find(id => id === randomNumber)
             if(id === randomNumber){
                 return id; 
@@ -41,16 +45,15 @@ const BikeShop = () => {
         setRandomNumber(id); 
         
     }
-    console.log(randomNumber); 
    
-
-
+    let keepRandomNumber = [randomNumber]; 
+    const getRandomNumber = parseInt(randomNumber); 
+    console.log(randomNumber, typeof(getRandomNumber)); 
     // Choose again button. 
 
     const chooseAgainButton = () =>{
         setMycart([]); 
     }
-
 
     return (
         <div className='container-bike'>
@@ -64,6 +67,10 @@ const BikeShop = () => {
                <h1>Bike, You Selected: </h1>
                {
                    myCart.map(product => <Cart cart={product} key={product.id}></Cart>)
+               }
+
+               {
+                   keepRandomNumber.map(number => <LuckyBike randomNumber={getRandomNumber} key={number} cart={myCart}></LuckyBike>)
                }
 
                <CartButton product={myCart}  chooseOneButton={chooseOneButton} chooseAgainButton={chooseAgainButton}></CartButton>  

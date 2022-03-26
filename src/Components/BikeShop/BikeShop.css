@@ -13,7 +13,6 @@
 .cart-bike{
     background-color: lightskyblue;
     margin-left: 10px;
-    height: 800px;
     border-radius: 13px;
 }
 @media screen and (max-width: 700px){
